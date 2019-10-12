@@ -6,6 +6,8 @@ class User(models.Model):
 	
 	firstName = models.CharField(max_length=50)
 	lastName = models.CharField(max_length=100)
+	country = models.CharField(max_length = 50, null = True)
+	city = models.CharField(max_length = 100, null = True)
 
 	isAdmin = models.BooleanField(default = False)
 

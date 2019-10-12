@@ -1,8 +1,10 @@
+from django.contrib import admin
 from django.urls import path
 from Seryigram import views
 from posts import views as ex
 
 urlpatterns = [
+	path('admin/', admin.site.urls),
     path('hello/', views.hello),
     path('hi/', views.hi),
     path('hi2/<str:name>/<int:age>', views.hi2),
