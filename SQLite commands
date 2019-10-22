@@ -1,0 +1,5 @@
+import from posts.models improt (tabla)
+var  = (datos)
+var.dato
+
+john = User.objects.create(firstName = 'John')
