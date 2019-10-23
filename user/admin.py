@@ -13,6 +13,7 @@ class ProfileAdmin(admin.ModelAdmin):
 		'website',
 		'picture'
 	)
+	
 	list_display_links = (
 		'pk',
 		'user'

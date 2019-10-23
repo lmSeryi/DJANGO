@@ -61,7 +61,6 @@ def update_profile(request):
 			profile.biography = data['biography']
 			profile.picture = data['picture']
 			profile.save()
-			print(form.cleaned_data)
 			return redirect('update_profile')
 			
 	else: 
